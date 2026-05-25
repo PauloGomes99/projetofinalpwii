@@ -4,7 +4,7 @@ require_once "conexao.php";
 
 $sql = "SELECT * FROM pessoas";
 
-$dados = $conexao->query($sql);
+$dados = $pdo->query($sql);
 ?>
 
 <!DOCTYPE html>

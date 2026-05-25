@@ -1,26 +1,9 @@
 <?php
 
-$host = "localhost";
-$banco = "cadastro_pessoa";
-$usuario = "root";
-$senha = "";
+$dsn = "mysql:host=localhost;dbname=cadastro_pessoa;port=3306";
 
-try {
+$username = "root";
 
-    $conexao = new PDO(
-        "mysql:host=$host;dbname=$banco",
-        $usuario,
-        $senha
-    );
+$password = "";
 
-    $conexao->setAttribute(
-        PDO::ATTR_ERRMODE,
-        PDO::ERRMODE_EXCEPTION
-    );
-
-    
-
-} catch(PDOException $erro) {
-
-    echo "Erro: " . $erro->getMessage();
-}
+$pdo = new PDO($dsn, $username, $password);
