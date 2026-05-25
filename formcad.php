@@ -1,3 +1,26 @@
+<?php
+include "menu.php";
+require_once "conexao.php";
+require_once "Pessoa.php";
+
+if ($_POST) {
+
+    $pessoa = new Pessoa(
+        $_POST['nome'],
+        $_POST['email'],
+        $_POST['telefone']
+    );
+
+    $pessoa->cadastrar($conexao);
+
+    
+}
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +57,7 @@
 
 
 </form>
-
+<a href="index.php">VOLTAR</a>
 </body>
 </html>
 

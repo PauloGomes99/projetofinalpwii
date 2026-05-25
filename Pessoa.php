@@ -1,11 +1,11 @@
 <?php
 
 
-public class Pessoa{
+class Pessoa{
 
-public string $nome;
-public string $email;
-protected string $telefone;
+private string $nome;
+private string $email;
+private string $telefone;
 
 
 public function __construct($nome, $email, $telefone) {
@@ -16,4 +16,20 @@ $this->telefone = $telefone;
 
 } 
 
+
+
+ public function cadastrar($conexao) {
+
+        $sql = "INSERT INTO Pessoas
+        (nome, email, telefone)
+        VALUES (?, ?, ?)";
+
+        $stmt = $conexao->prepare($sql);
+
+        $stmt->execute([
+            $this->nome,
+            $this->email,
+            $this->telefone
+        ]);
+    }
 }
