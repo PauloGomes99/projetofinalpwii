@@ -12,12 +12,12 @@ $dados = $pdo->query($sql);
 
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <title>Lista de Pessoas</title>
+    <title>Lista de cadastro</title>
 </head>
 
 <body>
 
-<h1>Pessoas Cadastradas</h1>
+<h1>Lista de Cadastro</h1>
 
 <table class="table table-bordered table-striped">
 
