@@ -2,7 +2,7 @@
 include "menu.php";
 require_once "conexao.php";
 
-$sql = "SELECT * FROM pessoas";
+$sql = "SELECT * FROM usuario";
 
 $dados = $pdo->query($sql);
 ?>
