@@ -1,6 +1,6 @@
 <?php
 
-$dsn = "mysql:host=localhost;dbname=cadastro_pessoa;port=3306";
+$dsn = "mysql:host=192.168.8.7;dbname=grupopw10;port=3306";
 
 $username = "root";
 
