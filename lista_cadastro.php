@@ -40,11 +40,6 @@ $dados = $pdo->query($sql);
 
 
 
-
-
-
-
-
 <?php foreach($dados as $pessoa) { ?>
 
 <tr>
