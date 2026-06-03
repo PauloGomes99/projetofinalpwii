@@ -20,7 +20,7 @@ $this->telefone = $telefone;
 
  public function cadastrar($conexao) {
 
-        $sql = "INSERT INTO Pessoas
+        $sql = "INSERT INTO usuario
         (nome, email, telefone)
         VALUES (?, ?, ?)";
 

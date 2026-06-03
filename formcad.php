@@ -5,13 +5,13 @@ require_once "Pessoa.php";
 
 if ($_POST) {
 
-    $pessoa = new Pessoa(
+    $usuario = new Pessoa(
         $_POST['nome'],
         $_POST['email'],
         $_POST['telefone']
     );
 
-    $pessoa->cadastrar($pdo);
+    $usuario->cadastrar($pdo);
 
     
 }

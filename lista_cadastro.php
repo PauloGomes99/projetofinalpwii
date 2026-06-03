@@ -4,7 +4,7 @@ require_once "conexao.php";
 
 $sql = "SELECT * FROM usuario";
 
-$dados = $pdo->query($sql);
+$dados = $conexao->query($sql);
 ?>
 
 <!DOCTYPE html>
@@ -57,7 +57,7 @@ $dados = $pdo->query($sql);
 
 <br>
 
-<a href="index.php">
+<a href="formcad.php">
 Voltar
 </a>
 

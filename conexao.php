@@ -1,9 +1,23 @@
 <?php
 
-$dsn = "mysql:host=192.168.8.7;dbname=grupopw10;port=3306";
+/* $dsn = "mysql:host=192.168.8.7;dbname=grupopw10;port=3307";
 
-$username = "grupopw10";
+$nome = "grupopw10";
+$telefone = "";
+$email = "";
 
-$password = "";
+$pdo = new PDO($dsn,$nome,$telefone,);
 
-$pdo = new PDO($dsn, $username, $password);
+*/
+
+
+$dsn = "mysql:host=192.168.8.7;dbname=grupopw10;port=3307";
+
+
+
+/*
+$host = "192.168.8.7";
+$banco = "usuario
+$usuario = "root";
+$senha = "";
+*/
