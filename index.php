@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once "conexao.php"; // sua classe de conexão PDO
+require_once "conexao.php"; 
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $usuario = $_POST['usuario'];
