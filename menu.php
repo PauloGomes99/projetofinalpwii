@@ -6,9 +6,6 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li> 
-        <a class="nav-link active" aria-current="page" href="index.php">INICIO</a>
-        </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="formcad.php">CADASTRAR</a>
         </li>

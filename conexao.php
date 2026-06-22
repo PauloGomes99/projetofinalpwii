@@ -1,23 +1,16 @@
 <?php
+$host = "192.168.8.7";     
+$dbname = "grupopw10";   
+$usuario = "root";        
+$senha = "";             
+$port = "3306";           
 
-/* $dsn = "mysql:host=192.168.8.7;dbname=grupopw10;port=3307";
+try {
+    $dsn = "mysql:host=192.168.8.7;dbname=grupopw10;port=3307";
+    $pdo = new PDO($dsn, $usuario, $senha);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    die("Erro na conexão: " . $e->getMessage());
+}
 
-$nome = "grupopw10";
-$telefone = "";
-$email = "";
-
-$pdo = new PDO($dsn,$nome,$telefone,);
-
-*/
-
-
-$dsn = "mysql:host=192.168.8.7;dbname=grupopw10;port=3307";
-
-
-
-/*
-$host = "192.168.8.7";
-$banco = "usuario
-$usuario = "root";
-$senha = "";
-*/
+?>
