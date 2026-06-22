@@ -1,6 +1,6 @@
 =======================================================================================================================================================
                                                                                                                                                       
-Nome do projeto: SISTEMA DE CADASTRO 
+Nome do projeto: SISTEMA DE CADASTRO DE VEICULOS
 =======================================================================================================================================================
 O projeto é um sistema de cadastro utilizando PHP , Banco de Dados MySQL. com elementos Bootstrap 
 
